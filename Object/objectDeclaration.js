@@ -18,3 +18,9 @@ for (s in sp) {
 
 //to find whether object's property is present or not
 console.log("age" in sp);
+
+//alternate method to get keys in array format
+console.log(Object.keys(ap));
+
+//alternate method to get values in array format
+console.log(Object.values(sp));
