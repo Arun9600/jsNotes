@@ -1,1 +1,1 @@
-JavaScript Object and it's methods notes
+JavaScript Important Topic Notes
