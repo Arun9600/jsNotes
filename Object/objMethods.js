@@ -57,3 +57,10 @@ function New() {
   console.log(`Call Method:`, this.initial);
 }
 New.call(objTwo);
+
+//bind
+function b() {
+  console.log(`Bind Method`, this.initial);
+}
+let s = b.bind(objTwo);
+s();
