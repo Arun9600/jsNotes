@@ -15,4 +15,4 @@ let ap = {
     return this.fname + " " + this.lname;
   },
 };
-console.log(ap.fullName());
+console.log(`this keyword:`, ap.fullName());
