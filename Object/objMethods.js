@@ -47,3 +47,7 @@ for (d of dp) {
 //object.keys returns key in an array
 let ep = Object.keys(objTwo);
 console.log(`Object keys`, ep);
+
+//object.values returns the value in an array
+let fp = Object.values(objTwo);
+console.log(`Object Values:`, fp);
