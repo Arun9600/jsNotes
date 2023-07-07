@@ -16,3 +16,15 @@ let ap = {
   },
 };
 console.log(`this keyword:`, ap.fullName());
+
+//this keyword using Object Constructor
+function Objconstruct(fname, lname) {
+  this.fname = fname;
+  this.lname = lname;
+}
+
+let construct = new Objconstruct("Arunprasanth", "M");
+console.log(
+  `This keyword using object constructor:`,
+  construct.fname + " " + construct.lname
+);
