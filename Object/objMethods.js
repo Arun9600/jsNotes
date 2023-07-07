@@ -31,3 +31,9 @@ console.log(
 
 //to display length of an object
 console.log(`Object's length:`, Object.keys(objTwo).length);
+
+//create an object from another object
+let cp = Object.create(objTwo);
+cp.initial = "A";
+cp.age = 29;
+console.log(cp);
