@@ -30,4 +30,4 @@ console.log(
 );
 
 //to display length of an object
-console.log(`Object's length:`, Object.keys(objOne).length);
+console.log(`Object's length:`, Object.keys(objTwo).length);
