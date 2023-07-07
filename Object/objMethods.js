@@ -8,10 +8,11 @@ console.log(`Object Merge:`, merge);
 
 //this keyword
 let ap = {
-  name: "AP",
+  fname: "Arunprasanth",
+  lname: "M",
   age: 28,
   fullName: function () {
-    return this.name;
+    return this.fname + " " + this.lname;
   },
 };
 console.log(ap.fullName());
