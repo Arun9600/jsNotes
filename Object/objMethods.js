@@ -36,10 +36,14 @@ console.log(`Object's length:`, Object.keys(objTwo).length);
 let cp = Object.create(objTwo);
 cp.initial = "A";
 cp.age = 29;
-console.log(cp);
+console.log(`Object Create`, cp);
 
 //display objects key and value into an array
 let dp = Object.entries(objTwo);
 for (d of dp) {
-  console.log(d);
+  console.log(`Object entries`, d);
 }
+
+//object.keys returns key in an array
+let ep = Object.keys(objTwo);
+console.log(`Object keys`, ep);
