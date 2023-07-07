@@ -28,3 +28,6 @@ console.log(
   `This keyword using object constructor:`,
   construct.fname + " " + construct.lname
 );
+
+//to display length of an object
+console.log(`Object's length:`, Object.keys(objOne).length);
