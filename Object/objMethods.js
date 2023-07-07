@@ -37,3 +37,9 @@ let cp = Object.create(objTwo);
 cp.initial = "A";
 cp.age = 29;
 console.log(cp);
+
+//display objects key and value into an array
+let dp = Object.entries(objTwo);
+for (d of dp) {
+  console.log(d);
+}
