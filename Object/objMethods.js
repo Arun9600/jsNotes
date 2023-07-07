@@ -64,3 +64,8 @@ function b() {
 }
 let s = b.bind(objTwo);
 s();
+
+//apply
+let aa = { fname: "Saran", lname: "M" };
+let ab = ap.fullName.apply(aa);
+console.log(`Apply Method`, ab);
