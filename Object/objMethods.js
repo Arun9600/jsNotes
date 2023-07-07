@@ -51,3 +51,9 @@ console.log(`Object keys`, ep);
 //object.values returns the value in an array
 let fp = Object.values(objTwo);
 console.log(`Object Values:`, fp);
+
+//call
+function New() {
+  console.log(`Call Method:`, this.initial);
+}
+New.call(objTwo);
