@@ -2,6 +2,12 @@
 let objOne = { first_name: "Arun", last_name: "prasanth" };
 let objTwo = { initial: "M", age: 28 };
 
+//access a particular property in object
+//method 1:
+console.log(objOne.first_name);
+//method 2:
+console.log(objOne["last_name"]);
+
 //To Merge two or objects
 let merge = Object.assign(objOne, objTwo);
 console.log(`Object Merge:`, merge);
