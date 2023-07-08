@@ -25,7 +25,7 @@ function time() {
   let ho = da.getHours();
   let min = da.getMinutes();
   let sec = da.getSeconds();
-  console.log(`${dat} ${ho} : ${min} : ${sec}`);
+  console.log(`${ho} : ${min} : ${sec}`);
 }
 
 setInterval(time, 1000);
