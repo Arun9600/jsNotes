@@ -22,3 +22,6 @@ console.log(
   `True Every Method:`,
   ap1.every((item, index, array) => item % 2 == 0)
 );
+
+//Array.isArray - Static method used to check whether the variable is an array or not
+console.log(`Array check:`, Array.isArray(ap));
