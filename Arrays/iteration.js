@@ -15,3 +15,10 @@ console.log(
   `Every:`,
   ap.every((item, index, array) => item === "A")
 );
+
+//every method true equation
+let ap1 = [2, 4, 6];
+console.log(
+  `True Every Method:`,
+  ap1.every((item, index, array) => item % 2 == 0)
+);
