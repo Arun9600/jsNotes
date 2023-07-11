@@ -43,3 +43,7 @@ console.log(`Spliced Array:`, arr);
 //slice - It is used to slice the specified part of an array and this method returns a value in new array
 let x = arr.slice(0, 1);
 console.log(`Sliced Array:`, x);
+
+//toString() - Used to convert a array into a string
+console.log(`To String Mehod:`, arr2.toString());
+console.log(`typeof to String Method:`, typeof arr2.toString());
