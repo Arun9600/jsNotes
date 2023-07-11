@@ -64,3 +64,7 @@ console.log(`Split:`, ap.split(" "));
 
 //valuesof - returns absolute string from string object
 console.log(`valueof:`, ap.valueOf());
+
+//Array.from() - Used to convert a string into an array
+console.log(`String to Array:`, Array.from(ap));
+console.log(typeof Array.from(ap));
