@@ -1,4 +1,4 @@
-let ap = ["A", "B", "C", "D"];
+let ap = ["A", "B", "C", "D", "C"];
 
 //some - If any one of the array element passes the test confition it will returns true
 console.log(
@@ -25,3 +25,9 @@ console.log(
 
 //Array.isArray - Static method used to check whether the variable is an array or not
 console.log(`Array check:`, Array.isArray(ap));
+
+//indexOf() - This will return the index of the specified string, Incase if the specified text is not present in the array it will returns -1
+console.log(`IndexOf:`, ap.indexOf("C"));
+
+//lastIndexOf() - This will return the index of the last element
+console.log(`lastIndexOf:`, ap.lastIndexOf("C"));
