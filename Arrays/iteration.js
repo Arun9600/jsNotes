@@ -31,3 +31,14 @@ console.log(`IndexOf:`, ap.indexOf("C"));
 
 //lastIndexOf() - This will return the index of the last element
 console.log(`lastIndexOf:`, ap.lastIndexOf("C"));
+
+//forEach() - This method iterates through all the elements in an array
+//limitations - retrun value is undefined and chaining of array methods is not possible as the return value is undefined
+ap.forEach((item) => {
+  console.log(`For Each:`, item);
+});
+
+//map() - It returns a new array, chaining of array method is possible
+ap.map((item, index, array) => {
+  console.log(item.toString().toLowerCase());
+});
