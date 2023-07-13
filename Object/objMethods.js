@@ -75,3 +75,9 @@ s();
 let aa = { fname: "Saran", lname: "M" };
 let ab = ap.fullName.apply(aa);
 console.log(`Apply Method`, ab);
+
+//Object.is()
+let y = { name: "Arun", age: 29 };
+let z = { name: "Arun", age: 29 };
+console.log(Object.is(y, z));
+console.log(Object.is(y, y));
