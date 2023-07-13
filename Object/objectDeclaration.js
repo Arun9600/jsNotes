@@ -24,3 +24,7 @@ console.log(Object.keys(ap));
 
 //alternate method to get values in array format
 console.log(Object.values(sp));
+
+//Object Destructor
+let { name: name, age: age } = ap;
+console.log(`Object Destructor:`, age);
