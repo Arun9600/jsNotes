@@ -9,3 +9,7 @@ console.log(x[0] + " " + x[1] + " " + x[2]);
 let y = new Array("Arun", "Prasanth", "M");
 //Accesing array elements from an Array
 console.log(y[0] + " " + y[1] + " " + y[2]);
+
+//Array Destructing
+let [fname, mname, lname] = x;
+console.log(`Array Destructor:`, fname, lname);
