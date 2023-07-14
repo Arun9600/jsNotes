@@ -27,9 +27,16 @@ console.log(`All Values:`, ap.values());
 //get key values pairs
 console.log(`Key N Value:`, ap.entries());
 
+//delete a map key
+ap.delete("age");
+console.log(`Post Delete ap Map Object Value:`, ap);
+
+//clear a map
+ap.clear();
+console.log(`Clear:`, ap);
+
 //Method 2: Map Object Creation
 let bp = new Map([
   ["name", "Arun"],
   ["age", 29],
 ]);
-console.log(bp);
