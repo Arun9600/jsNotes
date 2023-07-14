@@ -16,7 +16,7 @@ submit.addEventListener("click", function (e) {
       throw "Please Enter a Number";
     }
     if (i.length > 2) {
-      throw "Please enter a Valid two digit number";
+      throw "Please enter a valid two digit number";
     }
     document.getElementById("output").innerHTML = `The Entered number is: ${i}`;
   } catch (error) {
