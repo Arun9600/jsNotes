@@ -21,5 +21,7 @@ submit.addEventListener("click", function (e) {
     document.getElementById("output").innerHTML = `The Entered number is: ${i}`;
   } catch (error) {
     document.getElementById("output").innerHTML = error;
+  } finally {
+    document.getElementById("thanks").innerHTML = `Thanks for submitting`;
   }
 });
